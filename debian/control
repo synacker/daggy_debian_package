@@ -1,0 +1,25 @@
+Source: daggy
+Section: net
+Priority: optional
+Build-Depends: debhelper (>= 11), pkgconf, libyaml-cpp-dev (>=0.6), libbotan-2-dev (>=2.7), qtbase5-dev (>=5.5)
+Maintainer: Mikhail Milovidov <milovidovmikhail@gmail.com>
+Standards-Version: 4.1.3
+Homepage: https://daggy.dev
+
+Package: daggy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Data Aggregation Utilty - is an IT automation tool. 
+ It can run terminal commands on local or remote serveres and 
+ aggregate their output locally.
+ Daggy main goals are simplicity and ease-of-use. 
+ If you know about yaml/json, bash/powershell 
+ and ssh you know how to use Daggy.
+ Daggy can be helpful for developers, QA, DevOps and 
+ engenieers for debug, analyze and control 
+ distributed network systems, for example, 
+ based on microservice architecture.
+ Daggy is serverless, cross-platform solution and 
+ don't require installation on remote servers. 
+ Commands execution work under SSH transport protocol or 
+ via local terminal.

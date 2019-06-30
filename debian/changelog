@@ -1,0 +1,5 @@
+daggy (1.1.2-1) stable; urgency=medium
+
+  * Initial release. (Closes: #0) # there was no previous ITP
+
+ -- Mikhail Milovidov <milovidovmikhail@gmail.com>  Sun, 23 Jun 2019 23:19:03 +0300

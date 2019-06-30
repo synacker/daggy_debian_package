@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+export QT_SELECT=qt5
+include /usr/share/dpkg/default.mk
+
+%:
+	dh $@ --buildsystem=qmake
+
+override_dh_auto_configure:
+	dh_auto_configure -- BINDIR=${DESTDIR}${PREFIX}/bin LIBDIR=${DESTDIR}${PREFIX}/lib VERSION=$(DEB_VERSION_UPSTREAM) BUILD_NUMBER=0 DaggyProject.pro
+
