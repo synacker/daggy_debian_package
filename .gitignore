@@ -1,4 +1,8 @@
 /*
 /*/
 !/debian/
+/debian/.debhelper/*
+/debian/daggy*
+/debian/debhelper*
+/debian/files
 !.gitignore
