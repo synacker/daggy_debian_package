@@ -7,6 +7,8 @@ Build-Depends: debhelper (>= 11),
                pkgconf,
                qtbase5-dev (>=5.5)
 Maintainer: Mikhail Milovidov <milovidovmikhail@gmail.com>
+Vcs-Git: https://github.com/synacker/daggy.git
+Vcs-Browser: https://github.com/synacker/daggy
 Standards-Version: 4.3.0
 Homepage: https://daggy.dev
 
