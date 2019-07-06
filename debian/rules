@@ -15,4 +15,3 @@ override_dh_auto_configure:
 						 VERSION=$(DEB_VERSION_UPSTREAM) \
 						 BUILD_NUMBER=0 \
 						 DaggyProject.pro
-

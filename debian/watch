@@ -1,4 +1,4 @@
-version=1
+version=3
 https://github.com/synacker/daggy/tags \
 .*/synacker/daggy/archive/(\d.+)\.tar\.gz \
 debian uupdate
