@@ -7,8 +7,8 @@ Build-Depends: debhelper (>= 11),
                pkgconf,
                qtbase5-dev (>=5.5)
 Maintainer: Mikhail Milovidov <milovidovmikhail@gmail.com>
-Vcs-Git: https://github.com/synacker/daggy.git
-Vcs-Browser: https://github.com/synacker/daggy
+Vcs-Git: https://github.com/synacker/daggy_debian_package.git
+Vcs-Browser: https://github.com/synacker/daggy_debian_package
 Standards-Version: 4.3.0
 Homepage: https://daggy.dev
 
@@ -16,7 +16,8 @@ Package: daggy
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
-Description: Data Aggregation Utilty is an IT automation tool
+Description: run multiple commands on remote servers and save output locally
+ Data Aggregation Utilty is an IT automation tool.
  It can run terminal commands on local or remote serveres and
  aggregate their output locally.
  Daggy main goals are simplicity and ease-of-use.
