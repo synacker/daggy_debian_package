@@ -1,9 +1,3 @@
-daggy (1.1.3-1ubuntu1~cosmic) cosmic; urgency=medium
-
-  * Update to 1.1.3
-
- -- Mikhail Milovidov <milovidovmikhail@gmail.com>  Sat, 03 Aug 2019 17:03:46 +0300
-
 daggy (1.1.3-1ubuntu1~eoan) eoan; urgency=medium
 
   * Update to 1.1.3
